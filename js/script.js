@@ -26,7 +26,6 @@ function myButtonClicked() {
   let count = 0
 
   if (num1 > 0 && num2 > 0) {
-    
     while (remainder > num2 || remainder == num2) {
       remainder -= num2
 
@@ -34,8 +33,7 @@ function myButtonClicked() {
     }
     document.getElementById("answer").innerHTML =
       num1 + " ÷ " + num2 + " = " + count + " R " + remainder
-  }
-  else {
+  } else {
     document.getElementById("answer").innerHTML =
       "please enter a POSITIVE integer that is NOT 0"
   }
